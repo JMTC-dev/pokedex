@@ -41,5 +41,9 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
+      - name: Git Config
+        run: |
+          git config --global user.email "jackmatthewcasey@gmail.com"
+          git config --global user.name "Jack Casey"
       - name: Deploy
         run: pnpm run deploy
