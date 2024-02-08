@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 dist-ssr
 dist
-.github
+.github/workflows
 *.local
 
 # Editor directories and files
